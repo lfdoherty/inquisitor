@@ -1,0 +1,15 @@
+{
+	"name": "inquisitor",
+	"version": "0.1.0",
+	"description": "Runs FSM-style tests",
+	"main": "./inquisitor",
+	"author": "Liam Doherty",
+	"dependencies" : { 
+		"underscorem": ">0.1",
+		"nodesim" : "*"
+	},
+	"engines": {
+		 "node" : "0.6"
+	},
+	"bin" : { "inquisitor" : "./run.js" }
+}
